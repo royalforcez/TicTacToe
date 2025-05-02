@@ -100,9 +100,3 @@ Game {
   updatedAt: timestamp
 }
 ```
-
-## 3. Configuration Technique
-
-- Frontend : React.js
-- Backend : Node.js/Express
-- Authentication : JWT
