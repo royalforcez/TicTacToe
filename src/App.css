@@ -64,6 +64,15 @@ h1 {
   margin-top: 10px;
 }
 
+.authent-btn {
+  font-size: 16px;
+  background-color: red
+}
+
+.authent-btn:hover {
+  background-color: green;
+}
+
 .reset-btn:hover {
   background-color: #45a049;
 }
@@ -75,4 +84,4 @@ h1 {
   color: #0066cc;
   border-radius: 5px;
   font-weight: bold;
-} 
+}
