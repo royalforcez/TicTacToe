@@ -100,3 +100,45 @@ Game {
   updatedAt: timestamp
 }
 ```
+
+
+## 3. Descritption du projet
+
+### Contexte du projet
+- Ce projet a été réalisé dans le cadre de l’apprentissage du framework React Native, avec pour objectif de mettre en pratique les compétences acquises en développement mobile. Il s’agissait de concevoir une application interactive intégrant une interface utilisateur, une logique de jeu, ainsi qu’un système de sauvegarde locale.
+
+
+### Objectif
+- L’application développée est un jeu de morpion (tic-tac-toe) dans lequel deux joueurs placent tour à tour un symbole (X ou O) sur une grille de 3x3. Le système identifie automatiquement un gagnant ou un match nul. À l’issue de chaque partie, un bouton permet de réinitialiser le jeu et d’effacer les données sauvegardées.
+
+### Fonctionnalités principales
+- Grille interactive 3x3 avec prise en charge des clics utilisateur. 
+- Alternance automatique des joueurs. 
+- Détection d’un gagnant ou d’une égalité. 
+- Sauvegarde de l’état du jeu dans une base de données locale. 
+- Bouton de réinitialisation réinitialisant l’interface et les données. 
+- Affichage de l’état de la partie en temps réel (joueur en cours, résultat).
+
+### Technologies utilisées
+- React Native : développement mobile multiplateforme. 
+- JavaScript (ES6) : logique de jeu. 
+- AsyncStorage (ou SQLite) : sauvegarde des données localement. 
+- Visual Studio Code : environnement de développement.
+
+### Architecture technique
+- L’application est découpée en plusieurs composants : 
+- GameBoard : gère l’état global de la grille, la logique de victoire et le déroulement de la partie. 
+- Square : représente une case individuelle, cliquable, affichant un X ou un O. 
+- GameStatus : affiche les messages de statut (joueur actuel, victoire, nul). 
+- dbService : module d’abstraction de la base de données locale, responsable de l’enregistrement, du chargement et de l’initialisation des données.
+
+### Paramètres et utilisation
+- Installation via npm install ou yarn install. 
+- Lancement de l’application avec npm run dev
+
+### Perspectives d’évolution
+- Ajout d’un mode joueur contre IA. 
+- Création d’un tableau des scores. 
+- Tests unitaires avec Jest. 
+- Intégration d’une base de données distante (Firebase, MongoDB...). 
+- Améliorations graphiques : thèmes, animations, avatars joueurs.
