@@ -142,3 +142,6 @@ Game {
 - Tests unitaires avec Jest. 
 - Intégration d’une base de données distante (Firebase, MongoDB...). 
 - Améliorations graphiques : thèmes, animations, avatars joueurs.
+
+
+![Screenshot](Capture_decran_2025_05_02_102030.png)
